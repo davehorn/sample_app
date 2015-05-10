@@ -23,7 +23,7 @@ describe("StaticPages") do
     end
 
     it("should have the title 'Help'") do
-      visit('/static_pages/home')
+      visit('/static_pages/help')
       page.should(have_selector('title', :text => "Ruby on Rails Tutorial Sample App | Help"))
     end
 
@@ -37,7 +37,7 @@ describe("StaticPages") do
     end
 
     it("should have the title 'About Us'") do
-      visit('/static_pages/home')
+      visit('/static_pages/about')
       page.should(have_selector('title', :text => "Ruby on Rails Tutorial Sample App | About Us"))
     end
 
