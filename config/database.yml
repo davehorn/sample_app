@@ -16,7 +16,7 @@ test:
   adapter: postgresql
   host: localhost
   username: dhorn
-  database: sample-app
+  database: sample-app-test
 
 production:
   adapter: postgresql
