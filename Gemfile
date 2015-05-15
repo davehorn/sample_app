@@ -1,3 +1,6 @@
+#ruby=1.9.3
+#ruby-gemset=rails3tutorial2ndEd
+
 source 'https://rubygems.org'
 
 
